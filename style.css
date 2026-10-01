@@ -195,3 +195,65 @@ body{
     color: #111111;
     font-size: 18px;
 }
+
+/* About Section */
+.about{
+    padding: 120px 6%;
+    background: #ffffff;
+}
+.about-container{
+    max-width: 800px;
+    margin-top: 70px;
+}
+
+.about-label{
+    display:inline-block;
+    margin-bottom: 18px;
+    color: #2563eb;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+.about-header h2{
+    color: #111111;
+    font-size: 58px;
+    line-height: 1.05;
+    letter-spacing: -2px;
+}
+.about-header h2 span{
+    color: #2563eb;
+}
+
+.about-main{
+    display: grid;
+    grid-template-columns: 1fr 1.3fr;
+    gap: 80px;
+    padding-bottom: 70px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.about-intro{
+    max-width: 420px;
+}
+.about-intro p{
+    margin-bottom: 30px;
+    color: #666666;
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+.about-link{
+    display: inline-flex;
+    align-items:center;
+    gap: 10px;
+    color:#111111;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    transition: 0.3s ease;
+}
+.about-link:hover{
+    color: #2563eb;
+    transform: translateY(-2px);
+}
+
